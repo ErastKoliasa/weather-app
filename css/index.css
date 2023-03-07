@@ -1,0 +1,50 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.content {
+    text-align: center;
+    padding: 10% 0px;
+    color: white;
+}
+
+.input-city {
+    background: rgba(0, 0, 0, 0);
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    border-bottom: 3px solid white;
+}
+
+.input-city:focus-visible {
+    outline: none;
+}
+
+.input-city {
+    filter: alpha(opacity=60);
+}
+
+.information-city {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 60px 0px;
+}
+
+.information-item {
+    list-style-type: none;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+@media(min-width: 990px) {
+    .input-city {
+        font-size: 36px;
+    }
+}
